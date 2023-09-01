@@ -2650,11 +2650,11 @@
 	// ========================================
 
 	// E-mail Ajax Send
-	$("#tt-contact-form").submit(function() { // Change (your contact form ID)
+	$("#tt-contact").submit(function() { // Change (your contact form ID)
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", // Change (mail.php path)
+			url: "https://script.google.com/macros/s/AKfycbyQGyrA4zMzcnhddDnmxUuilSlic2fMUZKrNk4MOY2XroDWP82tOmWwQGoCvwFrSnhcDQ/exec", // Change (mail.php path)
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you. Your message has been sent!");

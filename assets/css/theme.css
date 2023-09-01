@@ -564,7 +564,10 @@ body.tt-magic-cursor #magic-cursor {
 	}
 }
 
-
+.sign {
+	max-width: 65%;
+	margin-left: -15%;
+}
 /* tt-section background image 
 =============================== */
 .tt-section-image {
