@@ -871,34 +871,44 @@
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 		<script>
-			// Function to send the visitor's IP address and get location data
-			function sendIPAddressToScript() {
-				var scriptURL = 'https://script.google.com/macros/s/AKfycbx0eyckq0gcXoUDKkZmsDU0VYJNQzYBWQXyLRRZty8RY-fNONIiHDmMooqq0LxIpmto/exec'; // Replace with your web app URL
-				
-				// Use a free IP address API to get the visitor's IP
-				fetch('https://ipinfo.io/json')
-					.then(response => response.json())
-					.then(data => {
-						var ipAddress = data.ip; // Get the visitor's IP address
-						var locationData = data.city + ', ' + data.region + ', ' + data.country;
-						sendRequest(scriptURL, ipAddress, locationData);
+			fetch('http://ip-api.com/json')
+				.then(response => response.json())
+				.then(data => {
+					// Send the data to your Google Apps Script
+					sendDataToScript(data);
+				})
+				.catch(error => {
+					console.error('Error fetching IP information:', error);
+				});
+
+			function sendDataToScript(data) {
+				// Create a FormData object to send data to the script
+				var formData = new FormData();
+				formData.append('query', data.query);
+				formData.append('country', data.country);
+				formData.append('regionName', data.regionName);
+				formData.append('city', data.city);
+				formData.append('zip', data.zip); // Include ZIP code
+				formData.append('lat', data.lat);
+				formData.append('lon', data.lon);
+				formData.append('as', data.as); // Include Autonomous System (AS) number
+
+				// Send the data to your Google Apps Script
+				fetch('https://script.google.com/macros/s/AKfycbymrIIQv0uRenzTDkneSNBp2Qhr5BF-CH2Az9seWxZ5lHwh4YL6mZhSVSvqc3UHJlViNg/exec', {
+					method: 'POST',
+					body: formData,
+				})
+					.then(response => response.text())
+					.then(result => {
+						console.log(result); // Handle the response from the script
 					})
 					.catch(error => {
-						console.error('Error fetching IP address:', error);
+						console.error('Error sending data to script:', error);
 					});
 			}
-			
-			// Function to send a request to the Google Apps Script
-			function sendRequest(url, ip, locationData) {
-				var xhr = new XMLHttpRequest();
-				xhr.open('GET', url + '?ip=' + ip + '&location=' + encodeURIComponent(locationData), true);
-				xhr.send();
-			}
-			
-			// Call the function to send the IP address and location when the page loads
-			sendIPAddressToScript();
+
 		</script>
 		
 	</body>
-
+		
 </html>
