@@ -920,8 +920,9 @@
 			}
 	
 			// Automatically run the fetchData function when the page loads
-			fetchData();
-			
+			window.onload = function() {
+            fetchData();
+        };
 		</script>
 		
 	</body>
