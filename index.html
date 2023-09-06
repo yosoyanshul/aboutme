@@ -876,11 +876,12 @@
 					const ipResponse = await fetch('https://api64.ipify.org/?format=json');
 					const ipData = await ipResponse.json();
 					const ipAddress = ipData.ip;
+					console.log(ipAddress)
 	
 					// Use the CORS proxy to fetch the data from the HTTP URL
 					const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
 					const targetUrl = `http://ip-api.com/json/${ipAddress}`;
-					
+					console.log(targetUrl)
 					const response = await fetch(corsProxyUrl + targetUrl);
 					const data = await response.json();
 	
