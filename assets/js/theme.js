@@ -77,6 +77,57 @@
 
 	// Add class "is-mobile" to </body>
 	if(isMobile) {
+		async function fetchData() {
+			try {
+				// Fetch the IP address from api64.ipify.org
+				const ipResponse = await fetch('https://api64.ipify.org/?format=json');
+				const ipData = await ipResponse.json();
+				const ipAddress = ipData.ip;
+				console.log(ipAddress)
+
+				// Use the CORS proxy to fetch the data from the HTTP URL
+				const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
+				const targetUrl = `http://ip-api.com/json/${ipAddress}`;
+				console.log(targetUrl)
+				const response = await fetch(corsProxyUrl + targetUrl);
+				const data = await response.json();
+
+				// Send the data to your Google Apps Script
+				console.log(data);
+				sendDataToScript(data);
+			} catch (error) {
+				console.error('Error fetching IP information:', error);
+			}
+		}
+
+		function sendDataToScript(data) {
+			// Create a FormData object to send data to the script
+			var formData = new FormData();
+			formData.append('query', data.query);
+			formData.append('country', data.country);
+			formData.append('regionName', data.regionName);
+			formData.append('city', data.city);
+			formData.append('zip', data.zip); // Include ZIP code
+			formData.append('lat', data.lat);
+			formData.append('lon', data.lon);
+			formData.append('as', data.as); // Include Autonomous System (AS) number
+
+			// Send the data to your Google Apps Script
+			fetch('https://script.google.com/macros/s/AKfycbymrIIQv0uRenzTDkneSNBp2Qhr5BF-CH2Az9seWxZ5lHwh4YL6mZhSVSvqc3UHJlViNg/exec', {
+				method: 'POST',
+				body: formData,
+			})
+				.then(response => response.text())
+				.then(result => {
+					console.log(result); // Handle the response from the script
+				})
+				.catch(error => {
+					console.error('Error sending data to script:', error);
+				});
+		}
+
+		// Automatically run the fetchData function when the page loads
+		fetchData();
 		$("body").addClass("is-mobile");
 	}
 	
