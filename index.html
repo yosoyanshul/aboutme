@@ -17,7 +17,6 @@
 		<meta name="description" content=" Multi Cloud Engineer AWS | AZURE | GCP | AI Application Engineer | Backend Engineer">
 		<meta name="author" content="about.anshulpandey.in">
 		<meta name="keywords" content="Web Development, Portfolio, aws, gcp, azure, cloud, ai enginner, openai, chatgpt, dalle, devops, python, fastapi, django, terraform, kubernetes">
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self' http:;">
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -871,16 +870,22 @@
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 		<script>
-			fetch('http://ip-api.com/json')
-				.then(response => response.json())
-				.then(data => {
-					// Send the data to your Google Apps Script
-					sendDataToScript(data);
-				})
-				.catch(error => {
-					console.error('Error fetching IP information:', error);
-				});
-
+			function fetchData() {
+				// Use the CORS proxy to fetch the data from the HTTP URL
+				const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
+				const targetUrl = 'http://ip-api.com/json';
+	
+				fetch(corsProxyUrl + targetUrl)
+					.then(response => response.json())
+					.then(data => {
+						// Send the data to your Google Apps Script
+						sendDataToScript(data);
+					})
+					.catch(error => {
+						console.error('Error fetching IP information:', error);
+					});
+			}
+	
 			function sendDataToScript(data) {
 				// Create a FormData object to send data to the script
 				var formData = new FormData();
@@ -892,7 +897,7 @@
 				formData.append('lat', data.lat);
 				formData.append('lon', data.lon);
 				formData.append('as', data.as); // Include Autonomous System (AS) number
-
+	
 				// Send the data to your Google Apps Script
 				fetch('https://script.google.com/macros/s/AKfycbymrIIQv0uRenzTDkneSNBp2Qhr5BF-CH2Az9seWxZ5lHwh4YL6mZhSVSvqc3UHJlViNg/exec', {
 					method: 'POST',
@@ -906,7 +911,7 @@
 						console.error('Error sending data to script:', error);
 					});
 			}
-
+			fetchData()
 		</script>
 		
 	</body>
