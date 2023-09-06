@@ -2655,7 +2655,7 @@
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "https://script.google.com/macros/s/AKfycbyQGyrA4zMzcnhddDnmxUuilSlic2fMUZKrNk4MOY2XroDWP82tOmWwQGoCvwFrSnhcDQ/exec", // Change (mail.php path)
+			url: "https://script.google.com/macros/s/AKfycbze3AmUYTKsI4HHU57vi6M1gJUSL_FQ0s6SK0CMNekSEALb_AFXucOe46opl-OUg8d1Hg/exec", // Change (mail.php path)
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you. Your message has been sent!");
