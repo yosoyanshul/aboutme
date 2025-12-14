@@ -1,0 +1,260 @@
+Anshul Pandey
+ He/Him
+Sr. Cloud & Platform Engineer || Kubernetes || Terraform || DevOps || Python || Building Automation for Autonomous & Self-Driving Vehicles
+
+Volkswagen Group Technology Solutions India
+Pune, Maharashtra, India  Contact info
+500+ connections
+Open to
+
+Add profile section
+
+Enhance profile
+
+Resources
+Open to work
+Senior Software Engineer roles
+
+Show details
+
+Edit
+AnalyticsAnalytics
+ Private to you Private to you
+
+63 profile views
+63 profile views
+Discover who's viewed your profile.Discover who's viewed your profile.
+1,013 post impressions
+1,013 post impressions
+Check out who's engaging with your posts.Check out who's engaging with your posts.
+Past 7 daysPast 7 days
+47 search appearances
+47 search appearances
+See how often you appear in search results.See how often you appear in search results.
+Show all analytics
+AboutAbout
+I’m a Cloud & Platform Engineer who focuses on building the foundations that make software delivery easier for everyone. Over the last few years, I’ve worked on shared platforms and automation that allow teams to deploy applications without worrying about the underlying infrastructure or compliance requirements. Most of my work has been in creating tools, reusable workflows, and reliable shared services. Today, I’m applying these skills in the autonomous and self-driving space, helping to shape the platforms that support one of the most challenging and exciting areas of technology enabling teams to move faster with confidence.I’m a Cloud & Platform Engineer who focuses on building the foundations that make software delivery easier for everyone. Over the last few years, I’ve worked on shared platforms and automation that allow teams to deploy applications without worrying about the underlying infrastructure or compliance requirements. Most of my work has been in creating tools, reusable workflows, and reliable shared services. Today, I’m applying these skills in the autonomous and self-driving space, helping to shape the platforms that support one of the most challenging and exciting areas of technology enabling teams to move faster with confidence.
+Top skills
+Top skills
+Kubernetes • Amazon Web Services (AWS) • Python (Programming Language) • DevOps
+
+
+ExperienceExperience
+
+Volkswagen Group Digital Solutions [India] logo
+Senior Software Engineer
+Senior Software Engineer
+Volkswagen Group Technology Solutions India · Full-timeVolkswagen Group Technology Solutions India · Full-time
+Nov 2024 - Present · 1 yr 2 mosNov 2024 to Present · 1 yr 2 mos
+Pune · HybridPune · Hybrid
+Building and operating a multi-tenant platform for autonomous driving workloads, integrating Helm, Istio, GitOps (ArgoCD) and ELK/EFK stack etc as shared services.
+
+Building self-service automation frameworks with Terraform, Python3, and GitHub Actions, enabling teams to provision infrastructure, secrets, and golden CI/CD templates without manual intervention.
+
+Implementing event-driven automation with Argo Events and Argo Workflows for scalable, resilient pipelines that handle model training, simulation jobs, and continuous delivery.
+
+Designing platform guardrails with Kyverno and enforcing policy-as-code across shared clusters, ensuring security, governance, and compliance with minimal developer friction.
+
+Establishing centralized monitoring and alerting with Prometheus, Grafana, and CloudWatch, reducing MTTR and improving reliability for mission-critical autonomous systems.
+
+Driving developer experience and productivity initiatives by delivering reusable IaC modules, container base images, and CI/CD blueprints reducing onboarding time by 40% and standardizing deployments across teams.Building and operating a multi-tenant platform for autonomous driving workloads, integrating Helm, Istio, GitOps (ArgoCD) and ELK/EFK stack etc as shared services. Building self-service automation frameworks with Terraform, Python3, and GitHub Actions, enabling teams to provision infrastructure, secrets, and golden CI/CD templates without manual intervention. Implementing event-driven automation with Argo Events and Argo Workflows for scalable, resilient pipelines that handle model training, simulation jobs, and continuous delivery. Designing platform guardrails with Kyverno and enforcing policy-as-code across shared clusters, ensuring security, governance, and compliance with minimal developer friction. Establishing centralized monitoring and alerting with Prometheus, Grafana, and CloudWatch, reducing MTTR and improving reliability for mission-critical autonomous systems. Driving developer experience and productivity initiatives by delivering reusable IaC modules, container base images, and CI/CD blueprints reducing onboarding time by 40% and standardizing deployments across teams.
+Blazeclan Technologies logo
+Cloud Engineer
+Cloud Engineer
+Blazeclan Technologies · PermanentBlazeclan Technologies · Permanent
+Jul 2022 - Nov 2024 · 2 yrs 5 mosJul 2022 to Nov 2024 · 2 yrs 5 mos
+Pune · HybridPune · Hybrid
+Established a secure AWS Landing Zone with Control Tower + Account Factory using Terraform, implementing SCPs, IAM guardrails, and CloudTrail for centralized auditing across 100+ accounts.
+
+Automated security and compliance workflows with AWS Step Functions, Lambda, Inspector, and Config, enabling real-time detection and remediation of vulnerabilities.
+
+Configured networking architectures (Transit Gateway, VPC peering, NAT, VPN, Direct Connect) to enable seamless hybrid connectivity between on-prem and multi-account AWS environments.
+
+Provisioned multi-account, multi-region AWS environments with Terraform/Python automation, ensuring governance, cost control, and consistency.
+
+Engineered CI/CD pipelines using Jenkins, AWS CodePipeline, and Azure DevOps to automate container builds, infrastructure deployments, and test workflows.
+
+Managed EKS/AKS clusters, optimizing cluster autoscaling, node pools, and workload scheduling for performance and cost efficiency.
+
+Strengthened cloud security with IAM least privilege, GuardDuty, KMS encryption, WAF, and Secrets Manager, achieving compliance with PCI DSS and NPCI standards.Established a secure AWS Landing Zone with Control Tower + Account Factory using Terraform, implementing SCPs, IAM guardrails, and CloudTrail for centralized auditing across 100+ accounts. Automated security and compliance workflows with AWS Step Functions, Lambda, Inspector, and Config, enabling real-time detection and remediation of vulnerabilities. Configured networking architectures (Transit Gateway, VPC peering, NAT, VPN, Direct Connect) to enable seamless hybrid connectivity between on-prem and multi-account AWS environments. Provisioned multi-account, multi-region AWS environments with Terraform/Python automation, ensuring governance, cost control, and consistency. Engineered CI/CD pipelines using Jenkins, AWS CodePipeline, and Azure DevOps to automate container builds, infrastructure deployments, and test workflows. Managed EKS/AKS clusters, optimizing cluster autoscaling, node pools, and workload scheduling for performance and cost efficiency. Strengthened cloud security with IAM least privilege, GuardDuty, KMS encryption, WAF, and Secrets Manager, achieving compliance with PCI DSS and NPCI standards.
+Powershell, HashiCorp and +9 skills
+Fealty Technologies logo
+Full Stack Developer
+Full Stack Developer
+Fealty Technologies · PermanentFealty Technologies · Permanent
+May 2021 - Jun 2022 · 1 yr 2 mosMay 2021 to Jun 2022 · 1 yr 2 mos
+Indore, Madhya Pradesh, India · On-siteIndore, Madhya Pradesh, India · On-site
+Designed and Developed the website components using Vue.Js
+Designing APIs leveraging Fastapi Python Framework.
+Hands on Experience in backend frameworks such as Django, Express and SpringbootDesigned and Developed the website components using Vue.Js Designing APIs leveraging Fastapi Python Framework. Hands on Experience in backend frameworks such as Django, Express and Springboot
+Powershell, Analytical Skills and +7 skills
+Biomech Healthcare Pvt Ltd logo
+Web Developer
+Web Developer
+Biomech Healthcare Pvt Ltd · TraineeBiomech Healthcare Pvt Ltd · Trainee
+Dec 2020 - May 2021 · 6 mosDec 2020 to May 2021 · 6 mos
+India · On-siteIndia · On-site
+• Developed and maintained web applications using HTML, CSS, and JavaScript, creating responsive, user-friendly interfaces for 5+ products.
+
+• Assisted in building backend services with Node.js and Express, contributing to the development of APIs for data-driven web applications.
+
+• Collaborated with frontend teams to design and implement interactive features, ensuring smooth user interactions and functionality.
+
+• Participated in code reviews and debugging sessions, working alongside senior developers to identify and resolve issues efficiently.
+
+• Created reusable components and modules in JavaScript, streamlining development and ensuring consistent UI/UX across pages, leading to a 20% decrease in development time.• Developed and maintained web applications using HTML, CSS, and JavaScript, creating responsive, user-friendly interfaces for 5+ products. • Assisted in building backend services with Node.js and Express, contributing to the development of APIs for data-driven web applications. • Collaborated with frontend teams to design and implement interactive features, ensuring smooth user interactions and functionality. • Participated in code reviews and debugging sessions, working alongside senior developers to identify and resolve issues efficiently. • Created reusable components and modules in JavaScript, streamlining development and ensuring consistent UI/UX across pages, leading to a 20% decrease in development time.
+Powershell, Analytical Skills and +3 skills
+EducationEducation
+Acropolis Group of Institutions logo
+Acropolis Group of Institutions
+Acropolis Group of Institutions
+Bachelor of Technology - BTech, Computer ScienceBachelor of Technology - BTech, Computer Science
+Aug 2018 - May 2022Aug 2018 - May 2022
+Linux System Administration, Analytical Skills and +4 skills
+
+
+Skills
+
+All
+Industry Knowledge
+Tools & Technologies
+Interpersonal Skills
+Languages
+Amazon Web Services (AWS)
+Amazon Web Services (AWS)
+Analytical Skills
+Analytical Skills
+Company logo
+3 experiences across Blazeclan Technologies and 2 other companies3 experiences across Blazeclan Technologies and 2 other companies
+Company logo
+Acropolis Institute of Technology and Research, Manglia Chouraha, IndoreAcropolis Institute of Technology and Research, Manglia Chouraha, Indore
+Version Control
+Version Control
+Company logo
+3 experiences across Blazeclan Technologies and 2 other companies3 experiences across Blazeclan Technologies and 2 other companies
+Linux System Administration
+Linux System Administration
+Company logo
+3 experiences across Blazeclan Technologies and 2 other companies3 experiences across Blazeclan Technologies and 2 other companies
+Company logo
+Acropolis Institute of Technology and Research, Manglia Chouraha, IndoreAcropolis Institute of Technology and Research, Manglia Chouraha, Indore
+Computer Science
+Computer Science
+Company logo
+3 experiences across Blazeclan Technologies and 2 other companies3 experiences across Blazeclan Technologies and 2 other companies
+Company logo
+Acropolis Institute of Technology and Research, Manglia Chouraha, IndoreAcropolis Institute of Technology and Research, Manglia Chouraha, Indore
+HashiCorp
+HashiCorp
+Company logo
+Cloud Engineer at Blazeclan TechnologiesCloud Engineer at Blazeclan Technologies
+Powershell
+Powershell
+Company logo
+3 experiences across Blazeclan Technologies and 2 other companies3 experiences across Blazeclan Technologies and 2 other companies
+Cloud Applications
+Cloud Applications
+Kubernetes
+Kubernetes
+Company logo
+Cloud Engineer at Blazeclan TechnologiesCloud Engineer at Blazeclan Technologies
+Terraform
+Terraform
+Company logo
+Cloud Engineer at Blazeclan TechnologiesCloud Engineer at Blazeclan Technologies
+DevOps
+DevOps
+Company logo
+Cloud Engineer at Blazeclan TechnologiesCloud Engineer at Blazeclan Technologies
+Spring Boot
+Spring Boot
+Company logo
+Full Stack Developer at Fealty TechnologiesFull Stack Developer at Fealty Technologies
+Vue.js
+Vue.js
+Company logo
+Full Stack Developer at Fealty TechnologiesFull Stack Developer at Fealty Technologies
+Java
+Java
+Company logo
+Acropolis Institute of Technology and Research, Manglia Chouraha, IndoreAcropolis Institute of Technology and Research, Manglia Chouraha, Indore
+Cloud Services
+Cloud Services
+Company logo
+Cloud Engineer at Blazeclan TechnologiesCloud Engineer at Blazeclan Technologies
+MySQL
+MySQL
+Python (Programming Language)
+Python (Programming Language)
+Company logo
+Cloud Engineer at Blazeclan TechnologiesCloud Engineer at Blazeclan Technologies
+Company logo
+Acropolis Institute of Technology and Research, Manglia Chouraha, IndoreAcropolis Institute of Technology and Research, Manglia Chouraha, Indore
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+Show all 4 details
+English
+English
+10 endorsements
+10 endorsements
+Full-Stack Development
+Full-Stack Development
+JavaScript
+JavaScript
+Company logo
+Acropolis Institute of Technology and Research, Manglia Chouraha, IndoreAcropolis Institute of Technology and Research, Manglia Chouraha, Indore
+5 endorsements
+5 endorsements
+Project Management
+Project Management
+4 endorsements
+4 endorsements
+Strategy
+Strategy
+3 endorsements
+3 endorsements
+Web Content Writing
+Web Content Writing
+2 endorsements
+2 endorsements
+HTML5
+HTML5
+2 endorsements
+2 endorsements
+Cascading Style Sheets (CSS)
+Cascading Style Sheets (CSS)
+2 endorsements
+2 endorsements
+Django
+Django
+Company logo
+Full Stack Developer at Fealty TechnologiesFull Stack Developer at Fealty Technologies
+2 endorsements
+2 endorsements
+React.js
+React.js
+2 endorsements
+2 endorsements
+Leadership
+Leadership
+4 endorsements
+4 endorsements
+Communication
+Communication
+3 endorsements
+3 endorsements
+Problem Solving
+Problem Solving
+3 endorsements
+3 endorsements
+Database Development
+Database Development
+Network Administration
+Network Administration
+Databases
+Databases
+SQL
+SQL
+FastAPI
+FastAPI
+Company logo
+Full Stack Developer at Fealty Technologies
