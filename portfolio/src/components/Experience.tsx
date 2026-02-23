@@ -20,9 +20,9 @@ export default function Experience() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-4xl md:text-6xl font-bold mb-32 tracking-tighter"
+          className="text-center text-4xl md:text-6xl font-bold mb-32 tracking-tighter uppercase"
         >
-          HOW IT ALL STARTED
+          THE JOURNEY
         </motion.h2>
 
         <div className="relative">
