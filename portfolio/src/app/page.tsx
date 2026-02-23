@@ -11,8 +11,8 @@ export default function Home() {
     <main className="relative min-h-screen bg-neutral-950 text-white selection:bg-white/20">
       <Header />
       <Hero />
-      <Skills />
       <Experience />
+      <Skills />
       <Projects />
       <Writing />
       <Contact />

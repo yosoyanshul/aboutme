@@ -1,10 +1,10 @@
 export const personalInfo = {
   name: 'Anshul Pandey',
   title: 'Sr. Cloud & Platform Engineer',
-  tagline: 'Not just your average DevOps guy. I build infrastructure that scales.',
+  tagline: 'I build the platforms that other engineers build on.',
   location: 'Pune, India',
-  email: 'anshul@anshulpandey.in',
-  photo: '/assets/img/my-photo.jpg',
+  email: 'sudo.anshul@gmail.com',
+  photo: '/assets/img/award_presentation_photo.png',
   social: {
     linkedin: 'https://www.linkedin.com/in/yosoyanshul',
     github: 'https://github.com/yosoyanshul',
@@ -15,10 +15,10 @@ export const personalInfo = {
 export const aboutContent = {
   intro: "Born in 2000. It all started with a desktop PC at 14.",
   description:
-    "I'm not here to just run kubectl apply. I architect systems. From hacking torrents to architecting easy-to-use platforms for Volkswagen, my journey has been about taking control of the machine.",
+    "I'm not here to just run kubectl apply. I architect systems. From hacking torrents to architecting GitOps platforms at Volkswagen, my journey has been about automating the machine, improving MTTR, and enabling teams to ship confidently.",
   passionAreas: [
+    'Platform Reliability',
     'Automating everything',
-    'Building for scale',
     'Teaching cloud (Free Cloud Camp)',
   ],
 };
@@ -26,7 +26,6 @@ export const aboutContent = {
 // Placeholder images for timeline
 const schoolImage = '/assets/img/school-placeholder.jpg';
 const collegeImage = '/assets/img/college-placeholder.jpg';
-// We would ideally have placeholder images for work too, but text suffices for now.
 
 export const timelineOrder = [
   {
@@ -40,24 +39,24 @@ export const timelineOrder = [
     year: '2014',
     title: 'The Desktop Era',
     role: 'Gamer / Tinkerer',
-    description: 'Dad bought me my first Desktop PC. It wasn\'t just for homework. I spent thousands of hours in GTA Vice City, San Andreas, Prince of Persia, and IGI. I also learned the dark arts of torrents, patches, and hacks because, well, I was broke.',
+    description: 'Dad bought me my first Desktop PC. Spent thousands of hours in GTA, Prince of Persia, and IGI. I also learned the dark arts of torrents, patches, and hacks because, well, I was broke.',
     type: 'personal',
   },
   {
-    year: 'Apr 2018',
+    year: '2018',
     title: 'School Captain',
     role: 'Leader',
     company: 'St Mary Champion School',
-    description: 'Completed my PCM schooling. Served as House Captain—my first taste of leadership and organizing chaos.',
+    description: 'Served as House Captain—my first taste of leadership and organizing chaos.',
     image: schoolImage,
     type: 'education',
   },
   {
-    year: 'Jul 2018',
+    year: '2022',
     title: 'B.Tech Journey',
     role: 'Student / Event Manager',
     company: 'Acropolis Institute',
-    description: 'Started Computer Science. To fund the fun, I worked part-time as an Event Manager at a travel agency. Learned that logistics in real life is harder than in code.',
+    description: 'Graduated Computer Science. To fund the fun, I worked part-time as an Event Manager at a travel agency. Learned that logistics in real life is harder than in code.',
     image: collegeImage,
     type: 'education',
   },
@@ -82,31 +81,43 @@ export const timelineOrder = [
     title: 'Cloud Engineer',
     role: 'Employee of the Year (2024)',
     company: 'Blazeclan Technologies',
-    description: 'Awarded Employee of the Year 2024. Architected AWS Landing Zones for 100+ accounts using Control Tower and Terraform. I turned manual chaos into automated order.',
+    description: 'Awarded Employee of the Year. Designed AWS infra for 30+ prod apps with 99.9% uptime. Automated deployments with Terraform and ran EKS clusters with strict PCI DSS compliance.',
     type: 'work',
   },
   {
-    year: 'Nov 2024',
+    year: 'Dec 2024 - Present',
     title: 'Platform Engineer',
     role: 'Debutant of the Year (2025)',
-    company: 'Volkswagen Group',
-    description: 'Awarded Debutant of the Year 2025. Building multi-tenant Kubernetes platforms for autonomous driving. Integrating Cluster Addons, Crossplane, Argo, and Istio. It\'s big scale stuff.',
+    company: 'Volkswagen Group Digital Solutions',
+    description: 'Debutant of the Year! Building a GitOps-based platform that chunked ops tickets by 70%. Designing multi-tenant K8s platforms, scaling AWS account provisioning, and keeping MTTR low as an on-call hero.',
     type: 'work',
   },
 ];
 
 export const skillCategories = [
   {
-    title: 'Platform & Cloud',
+    title: 'Cloud & Infrastructure',
     description:
-      'I don\'t just use the cloud; I define it. Terraform expert, AWS Solutions Architect, and CNCF ecosystem navigator.',
-    technologies: ['Terraform', 'AWS', 'Kubernetes', 'ArgoCD', 'Crossplane', 'Istio', 'Cluster Addons'],
+      'AWS Solutions Architect and Terraform Associate. Building enterprise landing zones and compliant environments at scale.',
+    technologies: ['AWS', 'Terraform', 'System Design', 'Linux', 'VPC Networking'],
   },
   {
-    title: 'Backend & ML',
+    title: 'Platform Engineering',
     description:
-      'I can build the app, not just deploy it. Python expert with deep knowledge of MLOps pipelines.',
-    technologies: ['Python', 'FastAPI', 'Express', 'Next.js', 'MLOps', 'PostgreSQL'],
+      'Designing self-service Kubernetes platforms and GitOps workflows that let developers ship without friction.',
+    technologies: ['Kubernetes', 'ArgoCD', 'GitHub Actions', 'Azure DevOps', 'IAM/RBAC'],
+  },
+  {
+    title: 'Reliability & Ops',
+    description:
+      'I don\'t just deploy; I monitor and respond. Defining SLOs, handling incidents, and writing blameless postmortems.',
+    technologies: ['Prometheus', 'Grafana', 'Incident Response', 'Python', 'Go', 'Bash'],
+  },
+  {
+    title: 'Backend Development',
+    description:
+      'I can build the app, not just run it. Creating robust, end-to-end applications and APIs using modern frameworks at scale.',
+    technologies: ['FastAPI', 'Express', 'Django', 'Python', 'Node.js'],
   },
 ];
 
