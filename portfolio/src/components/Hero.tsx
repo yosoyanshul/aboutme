@@ -49,7 +49,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.2 }}
             className="relative w-[300px] h-[300px] md:w-[500px] md:h-[600px] rounded-sm overflow-hidden"
           >
-            <img src={personalInfo.photo} alt={personalInfo.name} className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700" />
+            <img src={personalInfo.photo} alt={personalInfo.name} className="w-full h-full object-cover transition-all duration-700" />
 
             {/* Decorative Frame */}
             <div className="absolute inset-0 border border-white/10" />

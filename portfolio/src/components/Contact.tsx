@@ -42,7 +42,7 @@ export default function Contact() {
       </div>
 
       <div className="w-full text-center text-xs text-neutral-600 mt-24">
-        <span>© {new Date().getFullYear()} {personalInfo.name} • Crafted with Next.js & Framer Motion</span>
+        <span>© {new Date().getFullYear()} {personalInfo.name} • Crafted with Next.js</span>
       </div>
     </section>
   );

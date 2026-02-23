@@ -125,21 +125,21 @@ export const projects = [
   {
     title: 'Multi-tenant Autonomous Platform',
     description:
-      'Architected a massive Kubernetes platform for autonomous driving workloads at Volkswagen. Namespace isolation, resource quotas, and GitOps at scale.',
+      'Architected a massive Kubernetes platform for autonomous driving workloads at Moia. Namespace isolation, resource quotas, and GitOps at scale.',
     technologies: ['Kubernetes', 'ArgoCD', 'Kyverno', 'Istio', 'Crossplane'],
     link: null,
   },
   {
     title: 'AWS Enterprise Landing Zone',
     description:
-      'Built the foundational AWS architecture for 100+ accounts. Automated everything with Terraform and Control Tower.',
-    technologies: ['AWS', 'Terraform', 'Control Tower', 'Python'],
+      'Built the foundational AWS architecture for 400+ accounts. Automated everything with Terraform and Control Tower.',
+    technologies: ['AWS', 'Terraform', 'CloudFormation', 'Python'],
     link: null,
   },
   {
     title: 'Free Cloud Camp',
     description:
-      'My YouTube channel where I teach engineers how to actually build this stuff. No fluff, just code.',
+      'My YouTube channel where I intend to teach engineers how to actually build this stuff. No fluff, just code.',
     technologies: ['Education', 'Content Creation', 'Community'],
     link: 'https://www.youtube.com/@freecloudcamp',
   },
