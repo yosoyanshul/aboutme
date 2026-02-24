@@ -47,6 +47,14 @@ export const timelineOrder = [
     type: 'work',
   },
   {
+    year: 'May 2021',
+    title: 'Full Stack Developer',
+    role: 'Employee of the Year',
+    company: 'Fealty Technologies',
+    description: 'Employee of the Year Award recipient. Built full-stack apps with Vue.js and FastAPI. Learned that "Full Stack" just means you blame yourself for both frontend and backend bugs with same paycheck.',
+    type: 'work',
+  },
+  {
     year: '2022',
     title: 'B.Tech Journey',
     role: 'Student / Event Manager',
@@ -54,14 +62,6 @@ export const timelineOrder = [
     description: 'Graduated Computer Science. To fund the fun, I worked part-time as an Event Manager at a travel agency. Learned that logistics in real life is harder than in code.',
     image: collegeImage,
     type: 'education',
-  },
-  {
-    year: 'May 2021',
-    title: 'Full Stack Developer',
-    role: 'Employee of the Year',
-    company: 'Fealty Technologies',
-    description: 'Employee of the Year Award recipient. Built full-stack apps with Vue.js and FastAPI. Learned that "Full Stack" just means you blame yourself for both frontend and backend bugs with same paycheck.',
-    type: 'work',
   },
   {
     year: 'Dec 2020',

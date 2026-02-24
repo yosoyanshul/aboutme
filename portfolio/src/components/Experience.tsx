@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { timelineOrder } from '@/data/portfolio';
 import { useRef } from 'react';
 
@@ -66,6 +66,14 @@ interface TimelineItemProps {
 
 function TimelineItem({ item, index }: TimelineItemProps) {
   const isEven = index % 2 === 0;
+  const imageRef = useRef<HTMLDivElement>(null);
+
+  // Detect when image reaches the middle of the viewport
+  const isImageInView = useInView(imageRef, {
+    once: false,
+    amount: 0.5,
+    margin: "0px 0px -50% 0px" // Trigger when center of image crosses center of viewport
+  });
 
   return (
     <motion.div
@@ -88,9 +96,24 @@ function TimelineItem({ item, index }: TimelineItemProps) {
         </div>
 
         {item.image && (
-          <div className={`mt-8 relative aspect-video rounded-2xl overflow-hidden border border-white/10 opacity-90 hover:opacity-100 transition-opacity max-w-md ${isEven ? 'ml-auto' : 'mr-auto'}`}>
-            <img src={item.image} alt={item.title} className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
-          </div>
+          <motion.div
+            ref={imageRef}
+            className={`mt-8 relative aspect-video rounded-2xl overflow-hidden border border-white/10 max-w-md ${isEven ? 'ml-auto' : 'mr-auto'}`}
+            animate={{
+              opacity: isImageInView ? 1 : 0.9
+            }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-full object-cover"
+              animate={{
+                filter: isImageInView ? 'grayscale(0%)' : 'grayscale(100%)'
+              }}
+              transition={{ duration: 0.5 }}
+            />
+          </motion.div>
         )}
       </div>
 
